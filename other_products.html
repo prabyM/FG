@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<title>First Generation </title>
+
+</head>
+
+
+
+
+
+<div class="tab">
+
+  <a href="index.html"><button>First Generation </button></a>
+  <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+  <button class="tablinks" onclick="openTab(event, 'Downloads')">Downloads</button>
+  <a href="clients.html"><button>Clients</button></a>
+  <a href="notebook.html"><button>Notebooks</button></a>
+  <a href="diaries.html"><button>Almanacs</button></a>
+  <a href="other_products.html"><button>Other Products</button></a>
+
+  
+
+
+</div>
+
+
+<div id="Contact" class="tabcontent">
+<span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+  <h3>Contact</h3>
+    <img src="Logo.jpg" align="left"/>
+  <br>First Generation<br/>
+  <br>E7A/417,Sangam Vihar,<br/>
+  <br>New Delhi-110080<br>
+  <br>firstgenerationorg@gmail.com<br/>
+  <br>                    Mr Shubhash: +91 9958610212<br/> 
+  
+</div>
+
+<div id="Clients" class="tabcontent">
+<span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+  <h3>Clients</h3>
+    <img src="Logo.jpg" align="left"/>
+     
+  <br>Modern Holi Cross School,Madhubani<br/>
+  <br>Brothers Public School,Madhubani<br/>
+  <br>Saraswati Shisu Vidya Mandir,Madhubani<br/>
+  <br>Shiksha Niketan High School,Madhubani<br/>
+  <br>Bal Niketan ,Madhubani<br/>
+  <br>Ram Janki Vidya Mandir ,Madhubani<br/>
+  <br>Volkano Public School ,Darbhanga<br/>
+  
+  
+</div>
+
+<div id="Downloads" class="tabcontent">
+<span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+  <h3>Downloads</h3>
+    <img src="Logo.jpg" align="left"/>
+   <a href="others/fee_cards.pdf"> Sample Customised Fee Card</a><br> <br/>
+  
+  
+  <a href="vistingcard.jpg"> Visiting Card</a><br> <br/>
+  <br>  <br/>
+  <br> <br/>
+  <br> <br/>
+  <br> <br/>
+  <br> <br/>
+  
+</div>
+
+
+<script>
+function openTab(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+
+
+
+
+<body>
+
+<h1>Other Products </h1>
+<div class="visiontext">
+<br> Other products that we deal in include fee cards,school uniforms,envelopes,and other office stationeries.Some of the sample fee cards are shown below.We are working on sharing the sample of other products as well and will be sharing them here shortly. <br/>
+<br> <br/>
+</div>
+
+
+<img src="others/feecard_brothers.jpg" class="notebook"><br> <br/>
+<img src="others/feecard_volcano.PNG" class="notebook"><br> <br/>
+<img src="others/fee_card_ramjanki.PNG" class="notebook"><br> <br/>
+<img src="others/fee_card_christ.PNG" class="notebook"><br> <br/>
+
+
+
+
+
+
+</body>
+
+<div class="footer">
+<br>&copy This site is designed by Prabhakar.  E7A/417,Sangam Vihar,New Delhi .<br/>
+
+</div>
+
+</html>
